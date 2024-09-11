@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 8px;
+    
+}
+
+
+.producto h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.producto .precio {
+    font-size: 1.2em;
+    color: #e91e63;
+}
+
+.producto button {
+    background-color: #981ee9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #d81b60;
+}
